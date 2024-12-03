@@ -26,9 +26,9 @@ export default function Card({ data }) {
                     <div className="card" key={index}>
                         <img src={item.urlToImage} alt="image is missing" />
                         <div className="cardContent">
-                            <a href="" className="title" onClick={() =>  window.open(item.url)}>{item.title}</a>
+                            <a href="" className="title" onClick={() => window.open(item.url)}>{item.title}</a>
                             <p>{item.description}</p>
-                            <button onClick={() =>  window.open(item.url)}>Read More</button>
+                            <button onClick={() => window.open(item.url)}>Read More</button>
                         </div>
                     </div>
                 ))}
